@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>China Bond Data</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="vendor/d3.slider.js"></script>
+    <link rel="stylesheet" type="text/css" href="vendor/d3.slider.css">
+    <link rel="stylesheet" type="text/css" href="geomap.css">
+  </head>
+  <body>
+    <button class="switch" id="amount" disabled><p>Amount Issued</p></button>
+    <button class="switch" id="number"><p>Number Issued</p></button>
+    <button id="playbutton">Play</button>
+    <div id="map"></div>
+    <script src="geomap.js"></script>
+    <div class="centered">
+      <h1 id="provinceName">Select a Province</h1>
+    </div>
+    <div id="slider"></div>
+  </body>
+</html>
