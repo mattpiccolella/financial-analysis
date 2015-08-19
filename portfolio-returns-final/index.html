@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Portfolio Returns</title>
+    <script src="vendor/jquery-1.11.2.min.js"></script>
+    <script src="vendor/d3.v3.min.js"></script>
+    <script src="vendor/d3.slider.js"></script>
+    <link rel="stylesheet" type="text/css" href="linegraph.css">
+    <link rel="stylesheet" type="text/css" href="vendor/d3.slider.css">
+  </head>
+  <body>
+    <button id="playbutton">Play</button>
+    <div id="buttons">
+      <button class="switch" id="size" disabled><p>Size View</p></button>
+      <button class="switch" id="value"><p>Value View</p></button>
+      <button class="switch" id="all"><p>All View</p></button>
+    </div>
+    <div id="linegraph">
+    </div>
+    <script src="linegraph.js"></script>
+    <button id="resetbutton" style="display: none;">Reset</button>
+    <table align="center">
+      <tr>
+        <td class="month"><h1 id="month">Month</h1></td>
+        <td class="year"><h1 id="year">Year</h1></td>
+      </tr>
+    </table>
+    <div id="slider"></div>
+  </body>
+</html>

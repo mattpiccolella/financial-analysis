@@ -1,0 +1,212 @@
+/* SVG styling */
+path {
+  fill: #CED8B6;
+}
+
+#xAxis path, #yAxis path, #xAxis line, #yAxis line {
+  stroke: #ccc;
+  fill: none;
+  shape-rendering: crispEdges;
+}
+
+text {
+  font-size: 12px;
+  fill: #888;
+}
+
+svg.graph {
+  display: block;
+  margin: auto;
+  padding: 30px 100px 50px 50px;
+}
+
+#playbutton,#resetbutton {
+  display: block;
+  margin: auto;
+}
+
+circle {
+  opacity: 0.9;
+}
+
+#slider {
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 10px;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+td.month {
+  width: 170px;
+}
+td.year {
+  width: 100px;
+}
+
+#linegraph svg {
+ width: auto;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+#month {
+  text-align: left;
+}
+
+#year {
+  text-align: center;
+}
+/* NV Tooltip Styling from nv.d3.css */
+
+.nvtooltip {
+  position: absolute;
+  background-color: rgba(255,255,255,1.0);
+  padding: 1px;
+  border: 1px solid rgba(0,0,0,.2);
+  z-index: 10000;
+
+  font-family: Arial;
+  font-size: 13px;
+  text-align: left;
+  pointer-events: none;
+
+  white-space: nowrap;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Give tooltips that old fade in transition by
+    putting a "with-transitions" class on the container div.
+*/
+.nvtooltip.with-transitions, .with-transitions .nvtooltip {
+  transition: opacity 50ms linear;
+  -moz-transition: opacity 50ms linear;
+  -webkit-transition: opacity 50ms linear;
+
+  transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -webkit-transition-delay: 200ms;
+}
+
+.nvtooltip.x-nvtooltip,
+.nvtooltip.y-nvtooltip {
+  padding: 8px;
+}
+
+.nvtooltip h3 {
+  margin: 0;
+  padding: 4px 14px;
+  line-height: 18px;
+  font-weight: normal;
+  background-color: rgba(247,247,247,0.75);
+  text-align: center;
+
+  border-bottom: 1px solid #ebebeb;
+
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 1px 5px 0 0;
+}
+
+.nvtooltip p {
+  margin: 0;
+  padding: 5px 14px;
+  text-align: center;
+}
+
+.nvtooltip span {
+  display: inline-block;
+  margin: 2px 0;
+}
+
+.nvtooltip table {
+  margin: 6px;
+  border-spacing:0;
+}
+
+
+.nvtooltip table td {
+  padding: 2px 9px 2px 0;
+  vertical-align: middle;
+}
+
+.nvtooltip table td.key {
+  font-weight:normal;
+}
+.nvtooltip table td.value {
+  text-align: right;
+  font-weight: bold;
+}
+
+.nvtooltip table tr.highlight td {
+  padding: 1px 9px 1px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.nvtooltip table td.legend-color-guide div {
+  width: 8px;
+  height: 8px;
+  vertical-align: middle;
+}
+
+.nvtooltip .footer {
+  padding: 3px;
+}
+
+.nvtooltip-pending-removal {
+  position: absolute;
+  pointer-events: none;
+}
+
+.nvd3 text {
+  font: normal 12px Arial;
+}
+
+.nvd3 .title {
+ font: bold 14px Arial;
+}
+
+.nvd3 .nv-background {
+  fill: white;
+  fill-opacity: 0;
+}
+
+.nvd3.nv-noData {
+  font-size: 18px;
+  font-weight: bold;
+}
+.switch {
+  width:31%;
+}
+.switch.button {
+  height: 2.3125rem;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+.switch.button p {
+  margin-bottom: 0;
+  font-size: 0.875em;
+  padding: 0.6em;
+}
+.switch.button.active {
+  background-color: #d0d0d0;
+  cursor: default;
+}
+#buttons {
+  width:300px;
+  padding-bottom:10px;
+  margin-left: 65%;
+}
