@@ -1,0 +1,46 @@
+.centered {
+  text-align: center;
+}
+
+#slider {
+  margin: 0 auto;
+  width: 800px;
+}
+
+div.info-box {   
+  position: absolute;         
+  width: 110px;                  
+  height: 50px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: #c7c7c7;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;   
+  padding: 4px;      
+}
+
+.bubble {
+  fill-opacity: .5;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.bubble:hover {
+  stroke: #000;
+}
+
+.switch.button {
+  height: 2.3125rem;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+.switch.button p {
+  margin-bottom: 0;
+  font-size: 0.875em;
+  padding: 0.6em;
+}
+.switch.button.active {
+  background-color: #d0d0d0;
+  cursor: default;
+}
